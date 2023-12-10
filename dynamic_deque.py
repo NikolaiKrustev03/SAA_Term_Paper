@@ -52,10 +52,3 @@ class DynamicDeque:
 
     def __str__(self):
         return " ".join(str(x) for x in self.deque)
-
-# Example usage:
-dynamic_deque = DynamicDeque()
-
-dynamic_deque.appendleft(1)
-print(dynamic_deque.clear())
-

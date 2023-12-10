@@ -121,10 +121,3 @@ class StaticDeque:
     def __str__(self):
         if self.deque:
             return " ".join(str(x) for x in self.deque)
-
-
-static_deque = StaticDeque(5)
-
-print(static_deque.pop())
-
-print(static_deque)
