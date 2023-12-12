@@ -38,9 +38,9 @@ public class SquareMatrixSums {
                         System.out.print("Enter value for row " + (i + 1) + ", column " + (j + 1) + ": ");
                         String input = scanner.nextLine();
                         matrix[i][j] = Integer.parseInt(input);
-                        validInput = true; // If no exception is thrown, the input is valid
+                        validInput = true;
                     } catch (NumberFormatException e) {
-                        System.out.println("Invalid input. Please enter an integer.");
+                        System.out.println("Invalid input, only integers allowed.");
                     }
                 }*/
                 matrix[i][j] = random.nextInt(-100, 100);
