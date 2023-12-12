@@ -35,12 +35,10 @@ public class DynamicDequeTest {
         // Print deque
         System.out.println(dynamicDeque);
 
-        // Add more test cases as needed
-
         // Clear
         System.out.println(dynamicDeque.clear());
 
-        // Print the final state of the deque
+        // Print deque
         System.out.println(dynamicDeque);
     }
 }
